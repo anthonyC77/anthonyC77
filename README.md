@@ -1,15 +1,15 @@
 ### Bonjour, je suis Anthony
 
-Psychologue de formation et développeur depuis 2007, je m'intéresse autant aux outils d'IA qu'à la façon dont une équipe les adopte. Je construis des agents qu'on peut héberger, mesurer et contrôler : modèle local, traces, évaluations, validation humaine, budget plafonné.
+Développeur C#/.NET depuis 2007, chef de projet technique de 2022 à 2025, psychologue de formation. En 2026, j'intègre l'IA en entreprise. Ci-dessous, mes projets de l'année, menés seul et écrits avec Claude Code : je cadre, je tranche, je relis.
 
-**En ce moment**
+**Projets 2026**
 
-- [**Harnais**](https://github.com/anthonyC77/Harnais) : les agents, les gardes et les évaluations que partagent mes projets. Dans [mac-ia](https://github.com/anthonyC77/Harnais/tree/main/mac-ia), Claude Code tourne sur un Qwen local, via mon pont Anthropic ↔ OpenAI, sur un Mac coupé d'Internet ; le juge des évaluations aussi.
-- [**SiteGuardian**](https://github.com/anthonyC77/SiteGuardian) : des agents qui auditent et corrigent un site hébergé sur Kajabi, sans rien écrire avant validation humaine, avec un budget plafonné.
-- [**CoachIA**](https://github.com/anthonyC77/CoachIA) : un harnais qui mesure le travail avec Claude Code, avec des traces OpenTelemetry vers Phoenix en local et un bilan chaque lundi.
-- [**Ruche**](https://github.com/anthonyC77/Ruche) : un lecteur 3D qui rejoue les runs d'agents, en avant comme en arrière, avec les verdicts des évaluations.
-- [**Oneiros**](https://github.com/anthonyC77/HermesOneiros) : un agent qui apprend de ses sessions, entretient sa mémoire et « rêve », bâti sur le Claude Agent SDK. En cours.
+- [**Harnais**](https://github.com/anthonyC77/Harnais) : agents, gardes et évaluations communs à mes dépôts ; le juge des évaluations tourne sur un Qwen local. Dans [mac-ia](https://github.com/anthonyC77/Harnais/tree/main/mac-ia), un pont Anthropic ↔ OpenAI fait piloter Claude Code par Qwen, sur un Mac sans accès Internet : 52 tests sur 52, appels d'outils compris. Temps de réponse réel encore à mesurer.
+- [**SiteGuardian**](https://github.com/anthonyC77/SiteGuardian) : audit d'un site Kajabi et corrections en langage naturel, appliquées par MCP seulement après validation humaine. Haiku corrige, Sonnet reprend au-delà de 15 appels d'outils ; le coût estimé d'un audit est plafonné à 0,50 €.
+- [**CoachIA**](https://github.com/anthonyC77/CoachIA) : mesure mes sessions Claude Code (reprises, échecs d'outils, contexte saturé), avec des traces OpenTelemetry vers Phoenix en local et un bilan chaque lundi.
+- [**Ruche**](https://github.com/anthonyC77/Ruche) : prototype de lecteur 3D (Three.js) qui rejoue un run d'agents, y compris à l'envers, avec les verdicts des évaluations. 14 tests.
+- [**Oneiros**](https://github.com/anthonyC77/HermesOneiros) : un agent à mémoire, d'après la documentation d'hermes-agent. Mémoire filtrée et rappel entre sessions sont codés. Pilotage et « rêve » restent à écrire.
 
-**Ma méthode** : un plan avant le code, des évaluations rejouées à chaque changement, et des gardes écrites dans le code plutôt que dans le prompt.
+**Ma méthode** : un plan avant le code, et des gardes écrites dans le code plutôt que dans le prompt, vérifiées par 28 sondes. Ces sondes ont montré que deux gardes, enregistrées avec des fins de ligne Windows, bloquaient tout depuis le premier commit ; un `.gitattributes` empêche désormais que ça revienne.
 
-<sub>C# · .NET 10 · Angular · TypeScript · Three.js · Python · Claude Code · Claude Agent SDK · MCP · LM Studio · OpenTelemetry · Docker</sub>
+<sub>Dans ces dépôts : C# · .NET 10 · Angular · TypeScript · Three.js · Python · Claude Code · MCP · LM Studio · OpenTelemetry · Docker</sub>
