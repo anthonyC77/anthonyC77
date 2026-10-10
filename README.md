@@ -1,6 +1,6 @@
 ### Bonjour, je suis Anthony
 
-Développeur C#/.NET depuis 2007, chef de projet technique de 2022 à 2025, psychologue de formation. En 2026, j'intègre l'IA en entreprise. Ci-dessous, mes projets de l'année, menés seul et écrits avec Claude Code : je cadre, je tranche, je relis.
+Développeur C#/.NET depuis 2007, chef de projet technique depuis 2022, psychologue de formation. En 2026, j'intègre l'IA en entreprise. Ci-dessous, mes projets de l'année, menés seul et écrits avec Claude Code : je cadre, je tranche, je relis.
 
 **Projets 2026**
 
